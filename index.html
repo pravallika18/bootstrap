@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="description" content="Bootstrap responsive website">
+		<meta name="keywords" content="HTML,CSS,bootstrap,jQuery">
+		
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!--googlefont,favicon links-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andada">
+		
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+		
+	</head>
+	<body>
+		<div class="container" id="main">
+				<div class="navbar navbar-fixed-top">
+					<div class="container-fluid">
+						<nav>
+							<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#"><img src="images/logo.png" alt="your logo"><h4 class="pull-right">Vision University</h4></a>
+							
+							<div class="nav-collapse collapse navbar-responsive-collapse" id="navheaders">
+								<ul class="nav navbar-nav">
+									<li class="active">
+										<a href="#">Home</a>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<strong class="caret"></strong></a>
+										<ul class="dropdown-menu">
+											<li>
+												<a href="#">1</a>
+											</li>
+											<li>
+												<a href="#">2</a>
+											</li>
+											<li>
+												<a href="#">3</a>
+											</li>
+											<li class="divider"></li>
+											<li class="dropdown-header">4</li>
+											<li>
+												<a href="#">4</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+								<form class="navbar-form pull-left">
+									<input type="text" class="form-control" placeholder="search here.." id="search">
+									<button type="submit" class="btn btn-default">
+										<span class="glyphicon glyphicon-search"></span>
+									</button>
+								</form>
+								<ul class="nav navbar-nav pull-right">
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account<span class="caret"></span></a>
+										<ul class="dropdown-menu">
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-wrench"></span>settings</a>
+											</li>
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-refresh"></span>update profile</a>
+											</li>
+											<li>
+												<a href="#"><span class="glyphicon glyphicon-off"></span>signout</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</nav>
+					</div>	
+				</div>
+				<!--courosel-->
+				<div class="carousel slide" id="carousel">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#carousel"></li>
+						<li data-slide-to="1" data-target="#carousel"></li>
+						<li data-slide-to="2" data-target="#carousel"></li>
+					</ol>
+					<!--courosel inner-->
+					<div class="carousel-inner">
+						<div class="item active" id="slide1">
+							<div class="carousel-caption">
+								<h4> first courosel</h4>
+								<p>jshdkjashdjkdk</p>
+							</div>
+						</div>
+						<div class="item" id="slide2">
+							<div class="carousel-caption">
+								<h4> second courosel</h4>
+								<p>jshdkjashdjkdk</p>
+							</div>
+						</div>
+						<div class="item" id="slide3">
+							<div class="carousel-caption">
+								<h4> third courosel</h4>
+								<p>jshdkjashdjkdk</p>
+							</div>
+						</div>
+					</div><!--end of courosel inner-->
+					<a class="left carousel-control" data-slide="prev" href="#carousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#carousel"><span class="icon-next"></span></a>
+				</div><!--end of courosel-->
+			</div><!--end of container-->
+
+			<div class="container">
+					<div class="row">
+						<div class="col-12">				
+							<!-- Visible only on small devices -->
+							<div class="well well-small visible-sm">
+								<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Give us a call!</a>
+							</div><!-- end well-small -->
+							
+							<div class="jumbotron" id="jumbotron">
+								<div class="page-header">
+									<h3>Admissions Open</h3>
+								</div><!-- end page-header -->
+								<img src="images/image5.jpg"  alt="Admissions">
+								<p class="lead"></p>
+								<a href="#Modal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for get admission!</a>
+								<a href="" class="btn btn-large btn-link">or a secondary link</a>
+								<div class="modal fade" id="Modal">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button class="close" data-dismiss="modal">&times;</button>
+												
+												<h4 class="modal-title">A Modal Window</h4>
+											</div><!-- end modal-header -->
+											<div class="modal-body">
+												<a href="#" class="btn btn-info pop" data-toggle="popover" data-placement="top" data-original-title="fill and submit" data-content="to Get Admission!">see here</a>
+												
+												<form class="form-horizontal">
+													<div class="form-group">
+														<label class="col-lg-4 control-label" for="inputName">Name</label>
+														<div class="col-lg-8">
+															<input class="form-control" id="inputName" placeholder="Name" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-4 control-label" for="inputEmail">Email</label>
+														<div class="col-lg-8">
+															<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+														</div>
+													</div>
+													<div class="form-group">
+														<label class="col-lg-4 control-label" for="input">Qualification</label>
+														<div class="col-lg-8">
+															<input class="form-control" id="input" placeholder="Qualification" type="text">
+														</div>
+													</div>
+													
+													<div class="form-group">
+														<label class="col-lg-4 control-label" for="inputMessage">Message</label>
+														<div class="col-lg-8">
+															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+															<button class="btn btn-success pull-right pop"  id="save" type="submit" data-toggle="popover" data-placement="top" data-original-title="fill and submit" data-content="saved">Send!</button>
+														</div>
+													</div>
+												</form>
+											</div><!-- end modal-body -->
+											
+											<div class="modal-footer">
+												<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+											</div><!-- end modal-footer -->
+										</div><!-- end modal-content -->
+									</div><!-- end modal-dialog -->
+								</div><!-- end myModal -->
+							</div><!-- end jumbotron -->	
+						</div><!-- end col-12 -->
+					</div><!-- end row -->
+					
+					<div class="row" id="featuresHeading">
+						<div>
+							<h2>Features</h2>
+							<p class="lead">College atmosphere,study standards,placements</p>
+						</div>
+					</div>
+					<div class="row" id="features">
+							<div class="col-sm-4 feature">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title">Infrastructure</h3>
+									</div><!-- end panel-heading -->
+									<img src="images/image2.jpg" alt="infra" class="img-circle">
+									
+									<p></p>
+									
+									<a href="#" target="_blank" class="btn btn-info btn-block">check here</a>
+								</div><!-- end panel -->
+							</div><!-- end feature -->
+							
+							<div class="col-sm-4 feature">
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title">Build career</h3>
+									</div><!-- end panel-heading -->
+									<img src="images/image3.jpg" alt="Build career" class="img-circle">
+									
+									<p></p>
+									
+									<a href="#" target="_blank" class="btn btn-info btn-block">check here</a>
+								</div><!-- end panel -->
+							</div><!-- end feature -->
+							<section>
+							<div class="col-sm-4 feature">
+								
+								<div class="panel">
+									<div class="panel-heading">
+										<h3 class="panel-title">Placements</h3>
+									</div><!-- end panel-heading -->
+									<img src="images/image4.jpg" alt="Build career" class="img-circle">
+									
+									<p></p>
+									
+									<a href="#" target="_blank" class="btn btn-info btn-block">check here</a>
+								</div><!-- end panel -->
+
+							</div><!-- end feature -->
+							</section>
+					</div><!-- end features -->
+					
+
+					<div class="row" id="MoreInfo">
+					<div class="col-sm-6">
+						<h3>More Information About College</h3>
+						<div class="tabbable">
+								<ul class="nav nav-tabs">
+									<li class="active"><a href="#tab1" data-toggle="tab">loaction</a></li>
+									<li><a href="#tab2" data-toggle="tab">about</a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane active" id="tab1">
+										<h4><span class="glyphicon glyphicon-map-marker"></span> Our Location <small>More like our favourite surf spot</small></h4>
+										
+										<iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.ca/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=waikiki+beach&amp;aq=&amp;sll=19.896766,-155.582782&amp;sspn=8.711424,11.854248&amp;ie=UTF8&amp;hq=&amp;hnear=Waikiki+Beach,+Honolulu,+Hawaii,+United+States&amp;t=m&amp;ll=21.277298,-157.8265&amp;spn=0.015996,0.036478&amp;z=14&amp;output=embed"></iframe>
+										
+										<p>college is near to city and has a good transport facility.you can check here in google maps where the college is located</p>
+										
+									</div><!-- end tab-pane -->
+									
+									<div class="tab-pane" id="tab2">
+										
+										<img src="images/image6.jpg" class="thumbnail pull-left" alt="Placeholder image">
+										
+										<p>vision university is committed to significant enhancement of its facilities and buildings, essential for world-class research and all-round development of students. The University has an extremely modern and state-of-the-art infrastructure that goes a long way in facilitating a number of services for the students as well as the staff members.</p>
+										
+										<p>we aim to produce graduates with outstanding technological, communication and managerial skills, as well as to be imbued with high moral values to meet the challenges of Vision.Enhanced with up-to-date academic facilities, and tutored by highly qualified lecturers among whom are industry practitioners</p>
+									</div><!-- end tab-pane -->
+								</div><!-- end tab-content -->
+							</div><!-- end tabbable -->							
+						</div>
+						<div class="col-sm-6">
+							<h3>Latest Updates</h3>
+							<p>Latest updates of this university</p>
+							<div class="list-group">
+								<a href="#" class="list-group-item">
+									<h4 class="list-group-item-heading">article1</h4>
+									<p class="list-group-item-text">This article about a university or college in Andhra Pradesh, India is a stub. You can help Wikipedia by expanding it.</p>
+								</a>
+								<a href="#" class="list-group-item">
+									<h4 class="list-group-item-heading">article2</h4>
+									<p class="list-group-item-text">This article about exam results of  university or college in Andhra Pradesh, India is a stub. You can help Wikipedia by expanding it.</p>
+								</a>
+								<a href="#" class="list-group-item">
+									<h4 class="list-group-item-heading">article3</h4>
+									<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+								</a>
+							</div><!-- list-group -->
+						</div><!-- end col-sm-6 -->
+					</div><!--end of more info-->
+					
+	
+			</div><!--end of container-->
+			<div class="footer"> 
+			<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+					<h6>Copyright &copy; 2017</h6>
+					</div><!-- end col-sm-4 -->
+					
+					
+					
+					<div class="col-sm-4">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Courses</a></li>
+							<li><a href="#">Links</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div><!-- end col-sm-4 -->
+					
+					<div class="col-sm-4">
+						<h6>Follow Us</h6>
+						<ul class="unstyled">
+							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+							<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a></li>
+							<li><a href="#"><i class="fa fa-university" aria-hidden="true"></i>university</a></li>
+						</ul>
+					</div><!-- end col-sm-4 -->
+					
+					
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</footer>
+	
+			<!-- First try for the online version of jQuery-->
+				<script src="http://code.jquery.com/jquery.js"></script>
+				
+				<!-- If no online access, fallback to our hardcoded version of jQuery -->
+				<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+				
+				<!-- Bootstrap JS -->
+				<script src="bootstrap/js/bootstrap.min.js"></script>
+				
+				<!-- Custom JS -->
+				<script src="includes/js/script.js"></script>
+			
+	</body>
+</html>
+
