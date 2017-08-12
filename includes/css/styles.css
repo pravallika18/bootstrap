@@ -12,16 +12,19 @@ My Custom CSS
 #features{
    text-align: center;
 }
-#features img{
-   margin:0 0 20px;
-}
+
 #inputMessage{
    margin-bottom: 5px;
 }
 .form-horizontal{
    margin-top: 20px;
 }
-
+.tabbable a{
+ color:  #003cb3;
+}
+.lead{
+   font-size: 18px;
+}
 
 /* --------------------------------------
   Jumbotron
@@ -33,15 +36,11 @@ My Custom CSS
 }
 #jumbotron{
    padding: 10px;
-   margin-left: 5px;
-
-
-}
-#jumbotron{
-   margin: 20px 0px;
    text-align: center;
+   margin-top: 10px;
 
 }
+
 #jumbotron img{
    border-radius: 60%;
 }
@@ -55,16 +54,14 @@ My Custom CSS
       width:150px;
    }
    .navbar-brand{
-      padding:0px 5px;
+      padding:0px 0px;
       padding-top: 7px;
-      margin-right: 15px;
    }
    .navbar-brand img{
       height: 40px;
       width: 40px;
    }
    nav h4{
-      font-size: 20px;
       padding-top: 0;
       text-shadow: 1px 1px red;
    }
@@ -87,12 +84,12 @@ My Custom CSS
    background: url('../../images/c-m-03.jpg') top center no-repeat;
 }
 #carousel{
-   margin-top: 65px;
+   margin-top: 60px;
    
 }
 .carousel-caption{
    font-size: 27px;
-   color: #EC7063;
+   color: #ff4dff;
 }
 .carousel-caption h4{
    font-size: 27px;
@@ -111,8 +108,8 @@ body{
    text-rendering: optimizelegibility;
 }
 #featuresHeading{
-   margin-left: 10px;
-}
+   margin-left: 0px;
+   }
 .feature img{
    width: 200px;
    height: 200px;
@@ -123,6 +120,7 @@ body{
 }
 #features{
    padding: 0px 20px;
+
 }
 
 /*------Footer----*/
