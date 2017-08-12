@@ -51,7 +51,7 @@ My Custom CSS
    Navbar
    -------------------------------------- */
    #search{
-      width:150px;
+      width:110px;
    }
    .navbar-brand{
       padding:0px 0px;
@@ -117,10 +117,6 @@ body{
 #tab2 img{
    height:150px;
    width: 150px;
-}
-#features{
-   padding: 0px 20px;
-
 }
 
 /*------Footer----*/
