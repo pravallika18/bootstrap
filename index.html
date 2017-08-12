@@ -3,10 +3,11 @@
 <html>
 	<head>
 		
-		<!-- Website Title & Description for Search Engine purposes -->
-		<title></title>
+		<!--Title-->
+		<title>Vision university website</title>
 		<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<!--meta description-->
 		<meta name="description" content="Bootstrap responsive website">
 		<meta name="keywords" content="HTML,CSS,bootstrap,jQuery">
 		
@@ -22,24 +23,28 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andada">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Neuton">
 		
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
 		
 	</head>
 	<body>
-		<div class="container" id="main">
-				<div class="navbar navbar-fixed-top">
+		<div class="container">
+				<!--navbar-->
+				<div class="navbar navbar-fixed-top navbar-inverse">
 					<div class="container-fluid">
 						<nav>
+							<!--button for show icons in small devices-->
 							<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
+							<!--logo image and heading-->
 							<a class="navbar-brand" href="#"><img src="images/logo.png" alt="your logo"><h4 class="pull-right">Vision University</h4></a>
-							
+							<!--navbar headers-->
 							<div class="nav-collapse collapse navbar-responsive-collapse" id="navheaders">
 								<ul class="nav navbar-nav">
 									<li class="active">
@@ -49,18 +54,36 @@
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses<strong class="caret"></strong></a>
 										<ul class="dropdown-menu">
 											<li>
-												<a href="#">1</a>
+												<a href="#">MCA</a>
 											</li>
 											<li>
-												<a href="#">2</a>
+												<a href="#">MBA</a>
 											</li>
 											<li>
-												<a href="#">3</a>
+												<a href="#">B.tech</a>
 											</li>
 											<li class="divider"></li>
-											<li class="dropdown-header">4</li>
+											<li class="dropdown-header">Distance cources</li>
 											<li>
-												<a href="#">4</a>
+												<a href="#">MBA</a>
+											</li>
+										</ul>
+									</li>
+									<li class="dropdown">
+										<a href="#" class="dropdown-toggle" data-toggle="dropdown">Branches<strong class="caret"></strong></a>
+										<ul class="dropdown-menu">
+											<li>
+												<a href="#">Kakinada</a>
+											</li>
+											<li>
+												<a href="#">Anantapur</a>
+											</li>
+											<li>
+												<a href="#">Hydearabad</a>
+											</li>
+											<li class="dropdown-header">affliated</li>
+											<li>
+												<a href="#">More</a>
 											</li>
 										</ul>
 									</li>
@@ -90,7 +113,7 @@
 							</div>
 						</nav>
 					</div>	
-				</div>
+				</div><!--end of navbar-->
 				<!--courosel-->
 				<div class="carousel slide" id="carousel">
 					<ol class="carousel-indicators">
@@ -102,27 +125,27 @@
 					<div class="carousel-inner">
 						<div class="item active" id="slide1">
 							<div class="carousel-caption">
-								<h4> first courosel</h4>
-								<p>jshdkjashdjkdk</p>
+								<h4>Administrative Block</h4>
+								<p>main buliding</p>
 							</div>
 						</div>
 						<div class="item" id="slide2">
 							<div class="carousel-caption">
-								<h4> second courosel</h4>
-								<p>jshdkjashdjkdk</p>
+								<h4>Auditorium</h4>
+								<p>Good architecture</p>
 							</div>
 						</div>
 						<div class="item" id="slide3">
 							<div class="carousel-caption">
-								<h4> third courosel</h4>
-								<p>jshdkjashdjkdk</p>
+								<h4>Digital Block</h4>
+								<p>Practicle sessions</p>
 							</div>
 						</div>
 					</div><!--end of courosel inner-->
 					<a class="left carousel-control" data-slide="prev" href="#carousel"><span class="icon-prev"></span></a>
 					<a class="right carousel-control" data-slide="next" href="#carousel"><span class="icon-next"></span></a>
 				</div><!--end of courosel-->
-			</div><!--end of container-->
+		</div><!--end of container-->
 
 			<div class="container">
 					<div class="row">
@@ -138,7 +161,7 @@
 								</div><!-- end page-header -->
 								<img src="images/image5.jpg"  alt="Admissions">
 								<p class="lead"></p>
-								<a href="#Modal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click for get admission!</a>
+								<a href="#Modal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Click here to get admission!</a>
 								<a href="" class="btn btn-large btn-link">or a secondary link</a>
 								<div class="modal fade" id="Modal">
 									<div class="modal-dialog">
@@ -146,10 +169,10 @@
 											<div class="modal-header">
 												<button class="close" data-dismiss="modal">&times;</button>
 												
-												<h4 class="modal-title">A Modal Window</h4>
+												<h4 class="modal-title">Online Registration</h4>
 											</div><!-- end modal-header -->
 											<div class="modal-body">
-												<a href="#" class="btn btn-info pop" data-toggle="popover" data-placement="top" data-original-title="fill and submit" data-content="to Get Admission!">see here</a>
+												<a href="#" class="btn btn-info pop" data-toggle="popover" data-placement="top" data-original-title="fill and submit" data-content="to Get Admission!">click here..!</a>
 												
 												<form class="form-horizontal">
 													<div class="form-group">
@@ -176,7 +199,7 @@
 														<label class="col-lg-4 control-label" for="inputMessage">Message</label>
 														<div class="col-lg-8">
 															<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
-															<button class="btn btn-success pull-right pop"  id="save" type="submit" data-toggle="popover" data-placement="top" data-original-title="fill and submit" data-content="saved">Send!</button>
+															<button class="btn btn-success pull-right"  id="save" type="submit">Send!</button>
 														</div>
 													</div>
 												</form>
@@ -286,25 +309,27 @@
 								</a>
 								<a href="#" class="list-group-item">
 									<h4 class="list-group-item-heading">article3</h4>
-									<p class="list-group-item-text">Steel-cut oats are whole grain groats which have been cut into pieces. They are commonly used in Scotland and Ireland to make porridge.</p>
+									<p class="list-group-item-text">This article about university  in Andhra Pradesh, India is a stub. You can help Wikipedia by expanding it.</p>
 								</a>
 							</div><!-- list-group -->
 						</div><!-- end col-sm-6 -->
 					</div><!--end of more info-->
-					
-	
 			</div><!--end of container-->
 			<div class="footer"> 
 			<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-4">
+					<!-- col-sm-2 -->
+					<div class="col-sm-2">
 					<h6>Copyright &copy; 2017</h6>
-					</div><!-- end col-sm-4 -->
-					
-					
-					
-					<div class="col-sm-4">
+					</div><!-- end col-sm-2 -->
+					<!--  col-sm-6 -->
+					<div class="col-sm-6">
+						<h6>About Us</h6>
+						<p>vision university is committed to significant enhancement of its facilities and buildings, essential for world-class research and all-round development of students. The University has an extremely modern and state-of-the-art infrastructure that goes a long way in facilitating a number of services for the students as well as the staff members.</p>
+					</div><!-- end col-sm-6-->
+					<!-- col-sm-2 -->
+					<div class="col-sm-2">
 						<h6>Navigation</h6>
 						<ul class="unstyled">
 							<li><a href="#">Home</a></li>
@@ -312,9 +337,9 @@
 							<li><a href="#">Links</a></li>
 							<li><a href="#">Contact</a></li>
 						</ul>
-					</div><!-- end col-sm-4 -->
-					
-					<div class="col-sm-4">
+					</div><!-- end col-sm-2 -->
+					<!-- col-sm-2 -->
+					<div class="col-sm-2">
 						<h6>Follow Us</h6>
 						<ul class="unstyled">
 							<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
@@ -322,14 +347,10 @@
 							<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>Linkedin</a></li>
 							<li><a href="#"><i class="fa fa-university" aria-hidden="true"></i>university</a></li>
 						</ul>
-					</div><!-- end col-sm-4 -->
-					
-					
+					</div><!-- end col-sm-2 -->	
 				</div><!-- end row -->
 			</div><!-- end container -->
-		</footer>
-	
-			<!-- First try for the online version of jQuery-->
+			<!--online version of jQuery-->
 				<script src="http://code.jquery.com/jquery.js"></script>
 				
 				<!-- If no online access, fallback to our hardcoded version of jQuery -->
@@ -340,7 +361,7 @@
 				
 				<!-- Custom JS -->
 				<script src="includes/js/script.js"></script>
-			
-	</body>
+		</footer>		
+	</body><!--end of body-->
 </html>
 

@@ -18,7 +18,9 @@ My Custom CSS
 #inputMessage{
    margin-bottom: 5px;
 }
-
+.form-horizontal{
+   margin-top: 20px;
+}
 
 
 /* --------------------------------------
@@ -53,15 +55,18 @@ My Custom CSS
       width:150px;
    }
    .navbar-brand{
-      padding:0px 10px;
+      padding:0px 5px;
       padding-top: 7px;
+      margin-right: 15px;
    }
    .navbar-brand img{
       height: 40px;
       width: 40px;
    }
    nav h4{
+      font-size: 20px;
       padding-top: 0;
+      text-shadow: 1px 1px red;
    }
 
    
@@ -73,13 +78,13 @@ My Custom CSS
 
 }
 #slide1{
-   background: url('../../images/c01.jpg') top center no-repeat;
+   background: url('../../images/c-m-01.jpg') top center no-repeat;
 }
 #slide2{
-   background: url('../../images/c04.jpg') top center no-repeat;
+   background: url('../../images/c-m-02.jpg') top center no-repeat;
 }
 #slide3{
-   background: url('../../images/c03.jpg') top center no-repeat;
+   background: url('../../images/c-m-03.jpg') top center no-repeat;
 }
 #carousel{
    margin-top: 65px;
@@ -87,6 +92,7 @@ My Custom CSS
 }
 .carousel-caption{
    font-size: 27px;
+   color: #EC7063;
 }
 .carousel-caption h4{
    font-size: 27px;
@@ -96,6 +102,9 @@ My Custom CSS
    -------------------------------------- */
 
 body{
+   background: url("../../images/img.jpg");
+   font-family: 'Neuton';
+   font-size: 18px;
    overflow-x: hidden;
    margin-left: 3px;
    -webkit-font-smoothing: antialiased;
@@ -120,7 +129,7 @@ body{
 footer{
    background: #666;
    color:#eee;
-   font-size: 11px;
+   font-size: 16px;
    padding: 20px;
 }
 ul.unstyled{
@@ -144,13 +153,13 @@ ul.unstyled{
 
 }
 #slide1{
-   background: url('../../images/c01.jpg') top center no-repeat;
+   background: url('../../images/c-s-01.jpg') top center no-repeat;
 }
 #slide2{
-   background: url('../../images/c04.jpg') top center no-repeat;
+   background: url('../../images/c-s-02.jpg') top center no-repeat;
 }
 #slide3{
-   background: url('../../images/c03.jpg') top center no-repeat;
+   background: url('../../images/c-s-03.jpg') top center no-repeat;
 }
 .carousel-caption{
    font-size: 12px;
@@ -168,12 +177,12 @@ ul.unstyled{
 
 }
 #slide1{
-   background: url('../../images/c01.jpg') top center no-repeat;
+   background: url('../../images/c-l-01.jpg') top center no-repeat;
 }
 #slide2{
-   background: url('../../images/c04.jpg') top center no-repeat;
+   background: url('../../images/c-l-02.jpg') top center no-repeat;
 }
 #slide3{
-   background: url('../../images/c03.jpg') top center no-repeat;
+   background: url('../../images/c-l-03.jpg') top center no-repeat;
 }
 }
